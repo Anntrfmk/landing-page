@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{    
+    background-color: rgb(137, 51, 51);
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+img{
+height: 450px;
+width: 450px;
+margin-right: 320px;
+
+}
+.container{
+    position: relative; /* База для абсолютного позиціонування */
+    display: inline-block;
+    vertical-align: middle;
+}
+h1{
+    font-size: 100px;
+   font-family: "IBM Plex Serif", serif;
+  font-weight: 100;
+  font-style: normal; 
+   margin-left: 100px;
+}
+h2
+{
+ font-size: 20px;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  margin-bottom: 10px;
+  margin-left: 300px;
+}
+.red{
+    border: 1px white solid;
+    background-color:rgb(137, 51, 51);
+    color: white;
+    font-size: 15px;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+  font-style: normal;
+  margin-left: 400px;
+}
+.red:hover{
+    background-color:white;
+    color:rgb(137, 51, 51);
+    cursor: pointer;
+    
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+h4{
+    cursor: pointer;
+}
+h3{
+    margin-left: 400px;
+    font-size: 20px;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+  font-style: normal;
+}
+.blue{
+    border: 1px white solid;
+    background-color:rgb(58, 71, 101);
+    color: white;
+    font-size: 15px;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+  font-style: normal;
+  margin-left: 400px;
+}
+.blue:hover{
+     background-color:white;
+    color:rgb(58, 71, 101);
+    cursor: pointer;
+}
+.green{
+     border: 1px white solid;
+    background-color:rgb(83, 113, 79);
+    color: white;
+    font-size: 15px;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+  font-style: normal;
+  margin-left: 400px;
+}
