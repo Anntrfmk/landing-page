@@ -1,5 +1,6 @@
 var items = document.querySelectorAll('.item');
 var text = document.querySelectorAll('.about');
+var price = document.querySelectorAll('.price');
 let button = document.querySelector('.next');
 let shop = document.querySelector('.shop');
 let display = document.body;
@@ -43,6 +44,12 @@ function update(n) {
     })
     if (text[n]){ // Перевірка, чи існує такий елемент
         text[n].style.display = 'block';
+    }
+    price.forEach(element =>{
+        element.style.display='none';
+    })
+    if (price[n]){ // Перевірка, чи існує такий елемент
+        price[n].style.display = 'block';
     }
     
 };
